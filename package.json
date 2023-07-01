@@ -1,13 +1,13 @@
 {
-  "name": "",
+  "name": "dl-mangabat",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "compile": "yarn rimraf dist && yarn tsc && yarn copy-files && yarn zip",
-    "zip": "cross-zip dist/services/website.example/ release.zip ",
-    "copy-files": "cp src/services/website.example/image.jpg dist/services/website.example/image.jpg"
+    "zip": "cross-zip dist/services/mangabat.com/ release.zip ",
+    "copy-files": "cp src/services/mangabat.com/image.jpg dist/services/h.mangabat.com/image.jpg"
   },
   "dependencies": {
     "axios": "^1.4.0",
