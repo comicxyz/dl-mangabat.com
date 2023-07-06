@@ -7,7 +7,7 @@
   "scripts": {
     "compile": "yarn rimraf dist && yarn tsc && yarn copy-files && yarn zip",
     "zip": "cross-zip dist/services/mangabat.com/ release.zip ",
-    "copy-files": "cp src/services/mangabat.com/image.jpg dist/services/mangabat.com/image.jpg"
+    "copy-files": "cp src/services/mangabat.com/image.jpg dist/services/mangabat.com/image.jpg;cp package.json dist/services/mangabat.com/"
   },
   "dependencies": {
     "axios": "^1.4.0",
@@ -20,6 +20,7 @@
     "bestzip": "^2.2.1",
     "copyfiles": "^2.4.1",
     "cross-zip-cli": "^1.0.0",
+    "renamer": "^4.0.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   }

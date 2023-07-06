@@ -13,7 +13,7 @@
     "strict": true,
     "skipLibCheck": true ,
     "moduleResolution": "Node",
-    "sourceMap": true
+    "sourceMap": false
   },
   "include": [
     "src/**/*.ts"
