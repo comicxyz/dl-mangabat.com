@@ -1,6 +1,6 @@
 import {parse} from 'node-html-parser';
 import axios from 'axios';
-import GetChapterImagesInterface from '../../@types/GetChapterImagesInterface.js';
+import { GetChapterImagesInterface } from '../../@types/DownloaderInterfaces';
 
 const getChapterImages: GetChapterImagesInterface = async (url: string) => {
   const htmlResponse = await axios.get(url).then((res) => res.data);

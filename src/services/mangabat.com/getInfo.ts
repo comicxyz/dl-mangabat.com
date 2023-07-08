@@ -1,4 +1,4 @@
-import GetInfoFunctionType from "../../@types/GetInfoFunctionType";
+import { GetInfoFunctionType } from "../../@types/DownloaderInterfaces";
 
 const getInfo: GetInfoFunctionType = () => ({
   name: 'Mangabat',
