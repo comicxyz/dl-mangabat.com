@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "compile": "yarn rimraf dist && yarn tsc && yarn copy-files && yarn zip",
-    "zip": "cross-zip dist/services/mangabat.com/ release.zip ",
+    "zip": "cross-zip dist/services/mangabat.com/ $npm_package_name.$npm_package_version.zip ",
     "copy-files": "cp src/services/mangabat.com/image.jpg dist/services/mangabat.com/image.jpg;cp package.json dist/services/mangabat.com/"
   },
   "dependencies": {
